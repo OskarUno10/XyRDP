@@ -65,6 +65,11 @@
     "status": "skip",
     "note": "dilewati sesuai config"
   },
+  "memory": {
+    "total_mb": 16379,
+    "available_mb": 13634,
+    "measured": "akhir setup"
+  },
   "akses": {
     "mode": "keduanya",
     "rustdesk": {
@@ -90,15 +95,11 @@
       "port": 37811,
       "address": "alhmb-68-154-116-112.run.pinggy-free.link:37811",
       "rdp_local": "127.0.0.1 -> terbuka",
-      "selftest": "ok",
       "outside": "gagal (0/6 node luar bisa tersambung)",
       "note2": "Tunnel hidup di VM tetapi TERBUKTI tidak terbuka dari luar — pakai jalur RustDesk untuk sesi ini",
-      "note": "Isi Host+Port ini di XyDesk Remote (Koneksi RDP) atau mstsc; user xyadmin"
+      "note": "Isi Host+Port ini di XyDesk Remote (Koneksi RDP) atau mstsc; user xyadmin",
+      "selftest": "gagal"
     }
   },
-  "memory": {
-    "total_mb": 16379,
-    "available_mb": 13634,
-    "measured": "akhir setup"
-  }
+  "heartbeat_at": "2026-10-10T15:46:50Z"
 }
