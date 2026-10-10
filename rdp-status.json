@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "hostname": "rdpfree-4",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
@@ -75,9 +75,9 @@
     "rustdesk": {
       "status": "ok",
       "service": true,
-      "id": "499061164",
       "server": "rs-ny.rustdesk.com / rs-sg.rustdesk.com (server publik RustDesk)",
-      "client": "Unduh app RustDesk (gratis) -> masukkan ID + password"
+      "client": "Unduh app RustDesk (gratis) -> masukkan ID + password",
+      "id": ""
     },
     "tailscale": {
       "status": "skip",
@@ -91,15 +91,16 @@
     "tunnel": {
       "status": "ok",
       "provider": "pinggy",
-      "host": "alhmb-68-154-116-112.run.pinggy-free.link",
-      "port": 37811,
-      "address": "alhmb-68-154-116-112.run.pinggy-free.link:37811",
       "rdp_local": "127.0.0.1 -> terbuka",
       "outside": "gagal (0/6 node luar bisa tersambung)",
       "note2": "Tunnel hidup di VM tetapi TERBUKTI tidak terbuka dari luar — pakai jalur RustDesk untuk sesi ini",
       "note": "Isi Host+Port ini di XyDesk Remote (Koneksi RDP) atau mstsc; user xyadmin",
-      "selftest": "gagal"
+      "selftest": "gagal",
+      "host": "",
+      "port": 0,
+      "address": ""
     }
   },
-  "heartbeat_at": "2026-10-10T20:48:03Z"
+  "heartbeat_at": "2026-10-10T20:48:03Z",
+  "stopped_at": "2026-10-10T20:57:53Z"
 }
